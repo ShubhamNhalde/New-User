@@ -1,0 +1,10 @@
+2022-07-26 14:46:16.788  WARN 89215 --- [http-nio-9001-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "1315L"]
+2022-07-26 14:48:13.073  WARN 89987 --- [http-nio-9001-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "1315L"]
+2022-07-26 14:48:13.846  WARN 89987 --- [http-nio-9001-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "1315L"]
+2022-07-26 14:59:15.731  WARN 92629 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
+2022-07-26 14:59:15.734 ERROR 92629 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
+2022-07-26 15:00:08.667  WARN 92629 --- [http-nio-9001-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "1311L"]
+2022-07-26 15:06:38.492  WARN 94361 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
+2022-07-26 15:06:38.495 ERROR 94361 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
+2022-07-26 15:08:58.263  WARN 94963 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
+2022-07-26 15:08:58.266 ERROR 94963 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
