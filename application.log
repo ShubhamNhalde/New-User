@@ -8,3 +8,12 @@
 2022-07-26 15:06:38.495 ERROR 94361 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
 2022-07-26 15:08:58.263  WARN 94963 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
 2022-07-26 15:08:58.266 ERROR 94963 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
+2022-07-26 18:24:30.055  WARN 139790 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
+2022-07-26 18:24:30.058 ERROR 139790 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
+2022-07-26 18:52:29.786  WARN 139790 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
+2022-07-26 18:52:29.787 ERROR 139790 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
+2022-07-26 18:52:33.494  WARN 139790 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
+2022-07-26 18:52:33.495 ERROR 139790 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
+2022-07-26 18:57:37.252  WARN 148222 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
+2022-07-26 18:57:37.255 ERROR 148222 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
+2022-07-26 18:58:09.889  WARN 148222 --- [http-nio-9001-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "1315L"]
