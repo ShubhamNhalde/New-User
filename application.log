@@ -17,3 +17,30 @@
 2022-07-26 18:57:37.252  WARN 148222 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
 2022-07-26 18:57:37.255 ERROR 148222 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
 2022-07-26 18:58:09.889  WARN 148222 --- [http-nio-9001-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "1315L"]
+2022-07-26 19:48:35.330  WARN 161011 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9001 is already in use
+2022-07-26 19:48:35.407 ERROR 161011 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9001 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9001 or configure this application to listen on another port.
+
+2022-07-26 19:49:14.685  WARN 161247 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
+2022-07-26 19:49:14.687 ERROR 161247 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
+2022-07-26 19:51:03.360  WARN 161752 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
+2022-07-26 19:51:03.362 ERROR 161752 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
+2022-07-26 19:53:22.036  WARN 162428 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
+2022-07-26 19:53:22.038 ERROR 162428 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
+2022-07-26 19:54:37.664  WARN 162885 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
+2022-07-26 19:54:37.666 ERROR 162885 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
+2022-07-26 19:59:57.621  WARN 164271 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
+2022-07-26 19:59:57.624 ERROR 164271 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
+2022-07-26 20:02:49.508  WARN 165044 --- [restartedMain] c.n.user_service.UserServiceApplication  : Warn level log
+2022-07-26 20:02:49.511 ERROR 165044 --- [restartedMain] c.n.user_service.UserServiceApplication  : Error level log
