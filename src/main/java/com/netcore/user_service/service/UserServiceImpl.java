@@ -12,8 +12,10 @@ import java.util.List;
 public class UserServiceImpl implements UserService{
 
     List<User> list = Arrays.asList(
-            new User(1311L, "Shubham nhalde", "12345"),
-            new User(1312L, "Nikhil", "654321")
+            new User(0001L, "Shubham", "12345"),
+            new User(0002L, "Nikhil", "654321"),
+            new User(0003L, "sunil", "888888"),
+            new User(0004L, "Prasad", "777777")
 
     );
     @Override
